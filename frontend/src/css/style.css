@@ -1,0 +1,222 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4edda; /* Cor de fundo mais alegre */
+}
+
+#reservaForm {
+    background-color: #ffffff;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar o formulário */
+}
+
+#reservaForm h2 {
+    text-align: center;
+    color: #003366;
+}
+
+#reservaForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#reservaForm input[type="number"],
+#reservaForm input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reservaForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Botão verde alegre */
+    color: white;
+    cursor: pointer;
+}
+
+#reservaForm input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4edda; /* Cor de fundo alegre e clara */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #ffffff;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Botão verde alegre */
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.mensagem {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+h1 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Media Query para telas menores que 600px */
+@media (max-width: 600px) {
+    .mensagem {
+        padding: 10px;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+}
+
+/* dashboard */
+.dashboard-container {
+    color: darkblue;
+    font-family: 'Arial', sans-serif;
+}
+
+.dashboard-header {
+    background-color: dodgerblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.dashboard-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.red-letter {
+    color: red;
+}
+.green-letter {
+    color: #218838;
+
+}
+
+.metric-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(25% - 20px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.metric-box h2 {
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    .metric-box {
+        width: calc(50% - 20px); /* Colunas para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .metric-box {
+        width: 100%; /* Coluna única para telas muito pequenas */
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/*Tabela*/
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.tabela-scroll {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
